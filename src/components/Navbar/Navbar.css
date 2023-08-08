@@ -1,0 +1,77 @@
+.nav {
+  display: flex;
+  background-color: bisque;
+  height: 4rem;
+  justify-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.hamburgerIcon {
+  
+  display: none;
+  margin: 1.4rem 1rem 0rem 1rem;
+
+}
+
+.line{
+  background-color:black;
+  width:30px;
+  height:4px;
+  margin:3px;
+  
+}
+.logo {
+  text-decoration: none;
+  margin: 0rem 2rem;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+
+.profile {
+  position: absolute;
+  right: 10px;
+  float: left;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.login {
+    text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+}
+
+.login div{
+    display: flex;
+}
+
+
+
+.login p {
+  padding: 6px 0;
+  text-align: center;
+}
+
+.profile img {
+  float: left;
+  width: 40px;
+  top: 0px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburgerIcon {
+    display: block;
+  }
+
+}

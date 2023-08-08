@@ -1,0 +1,19 @@
+.nav-links {
+    display: flex;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    margin: 0 2rem;
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    .nav-links{
+        display:none;
+    }
+  }
